@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAGADAL CRUD</title>
+    <link rel="stylesheet" href="scripts/css/style.css" />
+  </head>
+  <body>
+    <body style="background-image: url('images/picture.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 50vh; margin: 0;"></body>
+    <div class="container">
+      <h2>School Registration</h2>
+      <hr />
+      <br />
+      <div class="form">
+        Student ID: <input type="text" name="RollNo" id="roll" placeholder="02-1764" /> <br /><br />
+        Username:&nbsp; <input type="text" name="name" id="name" placeholder="Sagadal, Roniel M." /> <br /><br />
+        Age:&nbsp; <input type="text" name="age" id="age" placeholder="21" /> <br /><br />
+        Gender: <input type="text" name="gender" id="gender" placeholder="Male" /> <br /><br />
+        Email Address: <input type="text" name="Address" id="address" placeholder="sagadal.roniel@gmail.com" /> <br /><br />
+      </div>
+
+      <hr />
+      <div class="buttons">
+        <button id="add">Add</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="scripts/js/fireConfig.js"></script>
+
+    <script src="scripts/js/myscript.js"></script>
+  </body>
+</html>
