@@ -1,0 +1,31 @@
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  /* border: 2px solid red; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color: rgba(241, 227, 227, 0.7); /* White with 70% opacity */
+  border-radius: 20px;
+}
+h2 {
+  text-align: center;
+}
+.container div {
+  text-align: center;
+}
+input {
+  width: 250px;
+  padding: 5px;
+}
+button {
+  width: 70px;
+  padding: 10px;
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: 16px;
+ background-color: rgba(184, 180, 180, 0.7); /* White with 70% opacity */
+  border: none;
+  color: black;
+  border-radius: 10px;
+}
